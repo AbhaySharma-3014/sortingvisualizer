@@ -1,0 +1,229 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Carter One', cursive;
+  font-size: large;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+body{
+
+  background-color: #F7ECDE;
+}
+title{
+
+  font-family: 'Carter One', cursive;
+}
+nav {
+  margin-top:0.5%;
+  margin-bottom: 0.5%;
+  background-color: #635666;
+  color: #AEDBCE;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% 60%;
+      grid-template-columns: 30% 60%;
+  -webkit-column-gap: 10%;
+          column-gap: 10%;
+  padding: 0% 5%;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  cursor:grabbing;
+  margin-right: 15px;
+  width: 200px;
+  height: 7px;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
+  background-size: 70% 100%;
+  background-repeat: no-repeat;
+}
+
+nav .array-inputs {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 60% 40%;
+      grid-template-columns: 60% 40%;
+  place-content: center;
+  padding: 5% 0%;
+}
+
+nav .array-inputs #a_size {
+  padding: 5% 0%;
+}
+
+nav .array-inputs #a_speed {
+  margin-bottom: 10%;
+  padding: 5% 0%;
+}
+
+nav .array-inputs #a_generate {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+
+  padding: 5% 0% 0% 0%;
+}
+
+nav .array-inputs #a_generate:hover {
+    color:#635666;
+    background-color: #D3EBCD;
+    cursor: pointer;
+}
+
+nav .header_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+nav .header_right .nav-heading {
+  display: inline-block;
+  font-size: xxx-large;
+  padding: 3% 0%;
+}
+
+nav .header_right .algos {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (16.66667%)[6];
+      grid-template-columns: repeat(6, 16.66667%);
+  place-content: center;
+  padding: 2% 0%;
+}
+
+nav .header_right .algos button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  padding: 5% 0%;
+  font-size: x-large;
+}
+
+nav .header_right .algos button:hover {
+  color:#635666;
+  background-color: #D3EBCD;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_locked {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_locked:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_selected {
+  background-color: white;
+  color: green;
+}
+
+nav .header_right .algos .butt_selected:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+nav .header_right .algos .butt_unselected:hover {
+  background-color: #AEDBCE;
+  cursor: pointer;
+}
+
+section {
+  font-family: 'Kalam', cursive;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 60% 20%;
+      grid-template-columns: 20% 60% 20%;
+}
+.ttt{
+  visibility: hidden;
+}
+section .Complexity_Containers {
+  margin-top: 20%;
+}
+
+section .Complexity_Containers .Pair_Definitions {
+  margin-top: 20%;
+}
+
+section .Complexity_Containers .Pair_Definitions p {
+  display: inline;
+}
+
+section .Complexity_Containers .Pair_Definitions p.Sub_Heading {
+  /* font-size:medium; */
+  font-weight: normal;
+  text-transform: none;
+}
+
+section #Info_Cont1 {
+  border-radius: 8%;
+  background-color: #D3EBCD;
+  padding: 20% 10%;
+  margin: 5% 8% 20% 5%;
+  visibility: hidden;
+}
+
+section #Info_Cont1 h3 {
+  font-family: 'Kalam', cursive;
+  font-size: 125%;
+  color: #363062;
+  text-decoration: underline;
+}
+#Time_Worst{
+    font-size:80%;
+    font-family: 'Kalam', cursive;
+    color: #446A46;
+}
+#Time_Average{
+    font-size:80%;
+    font-family: 'Kalam', cursive;
+    color: #446A46;
+}
+#Time_Best{
+    font-size:80%;
+    font-family: 'Kalam', cursive;
+    color: #446A46;
+}
+section #array_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 70vh;
+}
+
+section #Info_Cont2 {
+  border-radius: 8%;
+  background-color: #D3EBCD;
+  padding: 20% 10%;
+  margin: 5% 5% 20% 8%;
+  visibility: hidden;
+}
+
+section #Info_Cont2 h3 {
+  font-family: 'Kalam', cursive;
+  font-weight: bolder;
+  font-size: 125%;
+  text-decoration: underline;
+  color: #363062;
+}
+#Space_Worst{
+  font-size:80%;
+  font-family: 'Kalam', cursive;
+  color: #446A46;
+}
+
+.hide {
+  display: none;
+}
